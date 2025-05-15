@@ -1,5 +1,23 @@
+:root {
+    --background-color: #f6f9fd;
+    --brown: #80573a;
+    --brown--font: #4b2911;
+}
+
 * {
-    margin: o;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body {
+    background: var(--background-color);
+    color: var(black);
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
 }
