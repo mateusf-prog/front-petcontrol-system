@@ -1,0 +1,19 @@
+.mainLayout {
+  display: flex;
+  border-top: 30px solid var(--background-color);
+  border-left: 30px solid var(--background-color);
+  height: 100vh;
+}
+
+.sidebar {
+  width: 240px; /* ajuste conforme seu design */
+  flex-shrink: 0;
+}
+
+.main {
+  flex: 1;
+  padding: 24px;
+  background: var(#f7f7f7);
+  min-width: 0;
+  overflow-y: auto;
+}
