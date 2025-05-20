@@ -1,0 +1,16 @@
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 300;
+    gap: 12;
+}
+
+.loginButton {
+    display: flex;
+}
+
+h1 {
+    border-bottom: 15px solid var(--background-color);
+    width: 100px;
+    color: var(--brown--font);
+}
