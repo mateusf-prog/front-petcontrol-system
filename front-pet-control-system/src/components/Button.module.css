@@ -3,8 +3,11 @@ button {
   color: var(--background-color);           
   font-weight: bold;      
   border: none;
-  padding: 10px 20px;
+  padding: 10px;
   border-radius: 4px;
   cursor: pointer;
   transition: background 0.2s;
+  display: inline-block;
+  width: auto;
+  align-self: flex-start;
 }

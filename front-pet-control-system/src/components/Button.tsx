@@ -1,7 +1,13 @@
 import styles from './Button.module.css'
 
-export function Button( { content }: { content: string} ) {
+type ButtonProps = {
+    children: React.ReactNode;
+}
+
+export function Button({ children }: ButtonProps) {
     return (
-        <button className={styles.button} content={content} />
+        <button className={styles.button}>
+            {children}
+        </button>
     );
 }
