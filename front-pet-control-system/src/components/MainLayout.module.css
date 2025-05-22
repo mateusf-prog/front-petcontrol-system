@@ -6,7 +6,7 @@
 }
 
 .sidebar {
-  width: 240px; /* ajuste conforme seu design */
+  width: 240px;
   flex-shrink: 0;
 }
 
